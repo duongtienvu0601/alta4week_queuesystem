@@ -1,0 +1,134 @@
+.calendar {
+    width: 294px;
+    height: 304px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.calendarHeader {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    margin-top: 8px;
+    justify-items: center;
+    align-items: center;
+    color: #FF7506;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.calendarHeaderDay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 4px;
+    gap: 2px;
+    position: absolute;
+    width: 28px;
+    height: 40px;
+    left: 80px;
+    top: -8px;
+    border-radius: 8px;
+}
+
+.calendarHeader button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: #FF7506;
+    cursor: pointer;
+}
+
+.vector {
+    position: relative;
+    width: 280px;
+    height: 0px;
+    left: 10px;
+    top: 10px;
+    gap: 15px;
+    border: 1px solid #DCDDFD;
+}
+
+.calendarWeekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    color: #FF9138;
+    justify-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 35px;
+}
+
+.calendarDay {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.calendarDay:hover {
+    background-color: #f0f0f0;
+}
+
+.calendarDay.selected {
+    background-color: #333;
+    color: #fff;
+}
+
+.calendarDays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 4px;
+    margin-top: 5px;
+    margin-left: 9px;
+}
+
+.calendarDays .otherMonthDay {
+    color: #a4a3b0;
+    pointer-events: none;
+}
+
+.calendarDays .currentDay {
+    background-color: #FF7506;
+    color: #fff;
+}
+.calendarDays .disabled{
+    color: #a4a3b0;
+    pointer-events: none;
+}
+
+.calendarDays>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height: 19px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3c3b4a;
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.calendarDays>div:hover {
+    background-color: #FF7506;
+    color: #fff;
+}
+
+.calendarDays>div.selected {
+    background-color: #FF7506;
+    color: #fff;
+}

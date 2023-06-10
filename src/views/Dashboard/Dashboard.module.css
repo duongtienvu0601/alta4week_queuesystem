@@ -1,0 +1,543 @@
+.main {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    padding: 0 0 0 0px;
+    border-radius: 16px;
+    background-color: #f6f6f6;
+    position: fixed;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px 10px 0px;
+    gap: 8px;
+    position: absolute;
+    width: 176px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF9138;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.chartText {
+    position: absolute;
+    width: 162px;
+    height: 36px;
+    left: 50px;
+    top: 84px;
+
+    /* 24/24 Bold */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    /* Orange/$-Orange-500 */
+
+    color: #FF7506;
+
+}
+
+.frameTongQuan {
+    width: 380px;
+    height: 84vh;
+    margin-left: 910px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
+    border-radius: 8px 0px 0px 8px;
+    z-index: 0;
+}
+
+.FrameChart {
+    position: absolute;
+    width: 850px;
+    height: 128px;
+    left: 45px;
+    top: 46px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.Chart1 {
+    position: relative;
+    width: 186px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.Chart2 {
+    position: relative;
+    width: 186px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.Chart3 {
+    position: relative;
+    width: 186px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.Chart4 {
+    position: relative;
+    width: 186px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.Chart2 {
+    margin-left: 50px;
+}
+
+.Chart3 {
+    margin-left: 50px;
+}
+
+.Chart4 {
+    margin-left: 50px;
+}
+
+.Chartchart {
+    position: absolute;
+    width: 870px;
+    height: 420px;
+    left: 35px;
+    top: 208px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    filter: drop-shadow(2px 2px 15px rgba(70, 64, 67, 0.1));
+}
+
+.a1 {
+    position: absolute;
+    left: 3.03%;
+    right: 84.45%;
+    top: 11.98%;
+    bottom: 83.68%;
+
+    /* 14/14 Reg */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A9A9B0;
+
+}
+
+.IconChart {
+    position: absolute;
+    left: 12px;
+    top: 8px;
+}
+
+.textChart {
+    position: absolute;
+    width: 60px;
+    height: 36px;
+    left: 72.02px;
+    top: 2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #535261;
+}
+
+.numberChart {
+    position: absolute;
+    width: 108px;
+    height: 45px;
+    left: 12px;
+    top: 38px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #535261;
+}
+
+.dataChart {
+    position: absolute;
+    width: 48px;
+    height: 14.98px;
+    left: 100px;
+    top: 86px;
+
+}
+
+.textChart2 {
+    position: absolute;
+    width: 72px;
+    height: 36px;
+    left: 72.02px;
+    top: 2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #535261;
+
+}
+
+.textTongQuan {
+    width: 140px;
+    height: 36px;
+    left: 14px;
+    top: 104px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF7506;
+}
+
+.frameThietBi {
+    position: relative;
+    width: 340px;
+    height: 83px;
+    left: 15px;
+    top: 0px;
+
+    /* White */
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 12px;
+
+}
+
+.positionChart {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 16px;
+    top: 11px;
+}
+
+.phantram {
+    position: absolute;
+    width: 31px;
+    height: 24px;
+    left: 15px;
+    top: 18px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #535261;
+}
+
+
+.frameDichVu {
+    position: relative;
+    width: 340px;
+    height: 83px;
+    left: 15px;
+    top: 10px;
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 12px;
+}
+
+.frameCapSo {
+    position: relative;
+    width: 340px;
+    height: 83px;
+    left: 15px;
+    top: 20px;
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 12px;
+}
+
+.dataPosition {
+    position: absolute;
+    width: 64px;
+    height: 54px;
+    left: 88px;
+    top: 14px;
+}
+
+.trangThai {
+    position: absolute;
+    width: 125px;
+    height: 47px;
+    left: 85px;
+    top: 5px;
+}
+
+.trangThai1 {
+    position: absolute;
+    width: 125px;
+    height: 47px;
+    left: 173px;
+    top: 20px;
+}
+
+.trangThai2 {
+    position: absolute;
+    width: 145px;
+    height: 63px;
+    left: 173px;
+    top: 10px;
+}
+
+.dot {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 2px;
+    top: 9px;
+}
+
+.dot1 {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 2px;
+    top: 33px;
+}
+
+.dot2 {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 2px;
+    top: 55px;
+}
+
+
+.textTrangthai {
+    position: absolute;
+    width: 137px;
+    height: 21px;
+    left: 200px;
+    top: 18px;
+}
+
+.hoatdong {
+    position: absolute;
+    width: 120px;
+    height: 21px;
+    left: 10px;
+    top: -15px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+
+
+    color: #7E7D88;
+}
+
+.hoatdong2 {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 10px;
+    top: -15px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #7E7D88;
+}
+
+.khonghoatdong,
+.khonghoatdong2 {
+    position: absolute;
+    width: 120px;
+    height: 21px;
+    left: 10px;
+    top: 10px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+
+
+    color: #7E7D88;
+}
+
+
+.khonghoatdong3 {
+    position: absolute;
+    width: 120px;
+    height: 21px;
+    left: 10px;
+    top: 32px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #7E7D88;
+}
+
+.solieu {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 122px;
+    top: -15px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FF7506;
+
+}
+
+.solieu2 {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 122px;
+    top: -15px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #35C75A;
+
+}
+
+.solieu3 {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 122px;
+    top: 10px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #35C75A;
+
+}
+
+.solieuKhong {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 130px;
+    top: 12px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FF7506;
+
+}
+
+.solieuKhong2 {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 130px;
+    top: 32px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #35C75A;
+
+}
+
+.solieu1 {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 120px;
+    top: -15px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #4277FF;
+
+}
+
+.solieuKhong1 {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 130px;
+    top: 12px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #4277FF;
+
+}
+
+.frameDatePicker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 10px;
+    width: 330px;
+    height: 255px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 12px;
+}

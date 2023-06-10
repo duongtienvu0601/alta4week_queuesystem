@@ -1,0 +1,118 @@
+.container {
+    position: absolute;
+    width: 791px;
+    height: 484px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(2px 2px 15px rgba(70, 64, 67, 0.1));
+
+}
+
+.a {
+    position: absolute;
+    left: 3.03%;
+    right: 67.38%;
+    top: 4.96%;
+    bottom: 88.84%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #282739;
+}
+
+.frameXem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 1px;
+
+    position: absolute;
+    left: 83%;
+    top: 4.96%;
+    bottom: 86.36%;
+
+}
+
+.selectBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100px;
+    height: 45px;
+    padding: 12px;
+    background: #F5F5F5;
+    border: 2px solid #D4D4D7;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    background-image: url("/src/assets/images/fi_chevron-down.svg");
+    background-repeat: no-repeat;
+    background-position: calc(90%) center;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #7E7D88;
+}
+
+.selectBox:focus {
+    border-color: #FF7506;
+    outline: none;
+}
+
+
+
+.chart {
+    position: absolute;
+    width: 740px;
+    height: 373px;
+    left: 0px;
+    top: 78px;
+    border-radius: 8px;
+}
+
+.a1 {
+    position: absolute;
+    left: 3.03%;
+    right: 84.45%;
+    top: 11.98%;
+    bottom: 83.68%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A9A9B0;
+}
+
+.a2 {
+    width: 70px;
+    height: 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.a3 {
+    position: absolute;
+    left: 3.8%;
+    right: 91.78%;
+    top: 76.61%;
+    bottom: 5.67%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #535261;
+}
