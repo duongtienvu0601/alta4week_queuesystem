@@ -41,7 +41,7 @@ export const Login = () => {
         }
 
         let isLogin = {} as account;
-        const q = query(collection(db, "account"), where("username", "==", account.userName), where("password", "==", account.password));
+        const q = query(collection(db, "accounts"), where("username", "==", account.userName), where("password", "==", account.password));
         const querySnapshot = await getDocs(q);
         querySnapshot.forEach((doc) => {
             isLogin = { ...doc.data(), id: doc.id } as account;
